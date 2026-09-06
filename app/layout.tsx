@@ -5,6 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://larissa.devpedro.site'),
   title: 'Contadora Larissa Viana',
   description: 'Contabilidade sem complicações. Especialista em MEI, Imposto de Renda e Aposentadoria.',
   openGraph: {
